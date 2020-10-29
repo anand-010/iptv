@@ -24,9 +24,13 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/hls.js/dist/hls.min.js",
+              "node_modules/popper.js/dist/umd/popper.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -119,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "iptv-angular"
+    }
+  },
+  "defaultProject": "iptv-angular",
+  "cli": {
+    "analytics": "2b984745-33a6-493d-a6d0-98c8baf0d102"
+  }
 }
